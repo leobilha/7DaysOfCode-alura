@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yj8CvcgBK+qOig2S3vMWJKuqh2d6/P1SBL+iyN0v4kRk3mkOgR4jMwdZQF6R3Kt3ymJtaE+5T7KDdvfxRjbIGA==",
+  "success": true,
+  "projectFilePath": "C:\\leobilha\\7DaysOfCode-alura\\ConsoleApp\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lterragno\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\lterragno\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512",
+    "C:\\Users\\lterragno\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
