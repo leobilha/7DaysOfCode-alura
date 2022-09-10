@@ -1,17 +1,13 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp.Models
 {
-    public class Especie
+    public class Mascote
     {
-        public List<Ability> abilities { get; set; }
+        public List<abilitie> abilities { get; set; }
         public int base_experience { get; set; }
-        public List<Form> forms { get; set; }
+        public List<form> forms { get; set; }
         public List<GameIndex> game_indices { get; set; }
         public int height { get; set; }
         public List<object> held_items { get; set; }
@@ -28,14 +24,14 @@ namespace ConsoleApp.Models
         public List<Type> types { get; set; }
         public int weight { get; set; }
 
-        public class Ability
+        public class abilitie
         {
-            public Ability ability { get; set; }
+            public ability ability { get; set; }
             public bool is_hidden { get; set; }
             public int slot { get; set; }
         }
 
-        public class Ability2
+        public class ability
         {
             public string name { get; set; }
             public string url { get; set; }
@@ -110,7 +106,7 @@ namespace ConsoleApp.Models
             public string front_shiny { get; set; }
         }
 
-        public class Form
+        public class form
         {
             public string name { get; set; }
             public string url { get; set; }

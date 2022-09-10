@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ConsoleApp.Models
 {
-    public class ListaEspecies
+    public class ListaMascotes
     {
         public int count { get; set; }
         public string next { get; set; }
@@ -17,6 +13,6 @@ namespace ConsoleApp.Models
         {
             public string name { get; set; }
             public string url { get; set; }
-        }        
+        }
     }
 }

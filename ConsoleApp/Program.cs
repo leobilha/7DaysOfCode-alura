@@ -20,25 +20,36 @@ namespace ConsoleApp
             }
         }
 
-        static public void LerEspecieMascote(int codigoEspecie)
+        static public void LerMascote(int codigoMascote)
         {
             try
             {
-                if (codigoEspecie < 1 || codigoEspecie > 20)
+                if (codigoMascote < 1 || codigoMascote > 20)
                     Executar(MenuPrincipal());
 
-                RestClient client = new($"https://pokeapi.co/api/v2/pokemon/{codigoEspecie}");
+                RestClient client = new($"https://pokeapi.co/api/v2/pokemon/{codigoMascote}");
                 RestRequest request = new("", Method.Get);
                 var response = client.Execute(request);
 
                 if (!response.StatusCode.Equals(HttpStatusCode.OK))
                     Console.WriteLine(response.ErrorMessage);
 
-                Especie especie = JsonConvert.DeserializeObject<Especie>(response.Content);
+                Mascote mascote = JsonConvert.DeserializeObject<Mascote>(response.Content);
 
                 // Por enquanto mostra apenas a experiencia
-                Console.WriteLine($"\n*** Informações de {especie.name.ToUpper()} *** " +
-                                  $"\n\nExperiência Básica de {especie.name.ToUpper()} é de {especie.base_experience}.");
+                Console.WriteLine($"\n*** Informações de {mascote.name.ToUpper()} *** " +
+                                  $"\n\nNome Pokemon: {mascote.name.ToUpper()} " +
+                                  $"\nExperiência: {mascote.base_experience} " +
+                                  $"\nAltura: {mascote.height} " +
+                                  $"\nPeso: {mascote.weight} " +
+                                  "\nHabilidades:");
+
+                foreach (var abilitie in mascote.abilities)
+                {
+                    Console.WriteLine(abilitie.ability.name.ToUpper());
+                }
+
+
             }
             catch (Exception ex)
             {
@@ -46,7 +57,7 @@ namespace ConsoleApp
             }
         }
 
-        static public void LerEspeciesMascotes()
+        static public void LerMascotes()
         {
             try
             {
@@ -57,13 +68,13 @@ namespace ConsoleApp
                 if (!response.StatusCode.Equals(HttpStatusCode.OK))
                     Console.WriteLine(response.ErrorMessage);
 
-                ListaEspecies especies = JsonConvert.DeserializeObject<ListaEspecies>(response.Content);
+                ListaMascotes mascotes = JsonConvert.DeserializeObject<ListaMascotes>(response.Content);
 
                 Console.WriteLine("\n*** Lista de especies ***");
 
                 int posicao = 1;
 
-                foreach (var r in especies.results)
+                foreach (var r in mascotes.results)
                 {
                     Console.WriteLine($"\n {posicao++}. {r.name.ToUpper()}");
                 }
@@ -97,9 +108,9 @@ namespace ConsoleApp
             switch (opcao)
             {
                 case 1:
-                    LerEspeciesMascotes();
+                    LerMascotes();
                     Console.WriteLine("\n\nDigite o número da especie para mais informações ou qualquer número acima de 20 para voltar ao menu principal: ");
-                    LerEspecieMascote(Teclado.LeInt());
+                    LerMascote(Teclado.LeInt());
                     MenuPrincipal();
                     break;
                 case 2:

@@ -16,4 +16,3 @@ C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimec
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\RestSharp.dll
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CopyComplete
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.AssemblyReference.cache
