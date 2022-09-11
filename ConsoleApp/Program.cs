@@ -10,11 +10,13 @@ namespace ConsoleApp
         {
             try
             {
+
                 while (true)
                 {
                     int opcaoSelecionada = Mensagens.MenuPrincipal();
                     RegrasNegocio.Executar(opcaoSelecionada);
                 }
+
             }
             catch (Exception ex)
             {
