@@ -2,7 +2,7 @@
 
 namespace ConsoleApp.Models
 {
-    public class ListaMascotes
+    public class Mascotes
     {
         public int count { get; set; }
         public string next { get; set; }
