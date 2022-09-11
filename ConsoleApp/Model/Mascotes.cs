@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApp.Models
+namespace ConsoleApp.Model
 {
     public class Mascotes
     {

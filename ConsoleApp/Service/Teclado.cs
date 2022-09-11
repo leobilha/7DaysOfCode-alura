@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp
+namespace ConsoleApp.Service
 {
     /* Classe que permite fazer leitura de dados do teclado. */
     public class Teclado

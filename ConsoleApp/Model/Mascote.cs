@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace ConsoleApp.Models
+namespace ConsoleApp.Model
 {
     public class Mascote
     {

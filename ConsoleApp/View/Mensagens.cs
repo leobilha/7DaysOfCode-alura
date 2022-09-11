@@ -1,8 +1,9 @@
-﻿using ConsoleApp.Models;
+﻿using ConsoleApp.Model;
+using ConsoleApp.Service;
 using System;
 using System.Collections.Generic;
 
-namespace ConsoleApp
+namespace ConsoleApp.View
 {
     public class Mensagens
     {
@@ -37,7 +38,6 @@ namespace ConsoleApp
                 Console.WriteLine($" {posicao++}. {r.name.ToUpper()}");
             }
         }
-
 
         static public int MenuPrincipal()
         {

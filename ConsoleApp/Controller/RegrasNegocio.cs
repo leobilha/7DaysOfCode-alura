@@ -1,10 +1,12 @@
-﻿using ConsoleApp.Models;
+﻿using ConsoleApp.Model;
+using ConsoleApp.Service;
+using ConsoleApp.View;
 using Newtonsoft.Json;
 using RestSharp;
 using System;
 using System.Net;
 
-namespace ConsoleApp
+namespace ConsoleApp.Controller
 {
     public class RegrasNegocio
     {

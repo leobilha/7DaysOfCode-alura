@@ -1,3 +1,7 @@
+C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfo.cs
+C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CoreCompileInputs.cache
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\ConsoleApp.exe
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\ConsoleApp.deps.json
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
@@ -5,14 +9,10 @@ C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconf
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\ConsoleApp.dll
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\ref\ConsoleApp.dll
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\ConsoleApp.pdb
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfoInputs.cache
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfo.cs
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\RestSharp.dll
+C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CopyComplete
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.dll
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
 C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\RestSharp.dll
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CopyComplete
-C:\leobilha\7DaysOfCode-alura\ConsoleApp\bin\Debug\net5.0\Newtonsoft.Json.dll

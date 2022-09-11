@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ConsoleApp.Controller;
+using ConsoleApp.View;
+using System;
 
 namespace ConsoleApp
 {
